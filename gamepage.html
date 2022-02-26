@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Guess the Word</title>
+        <link href="wordgamestyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <h3 id="player1_name"></h3>
+        <span id="player1_score"></span>
+        <br>
+        <h3 id="player2_name"></h3>
+        <span id="player2_score"></span>
+        <center>
+        <h1> Guess the Word Game </h1>
+        <h2 id="player_question"></h2>
+        <h2 id="player_answer"></h2>
+        <div id="output" class="col-lg-6"></div>
+        <br>
+        <br>
+        <label> send your word <b style="color: red"> NOTE-word that has five or more letters</b></label>
+        <br>
+        <br>
+        <input id="word" class="form-control" placeholder="send your word">
+        <br>
+        <br>
+        <button class="btn btn-success" style="width:30%;"onclick="send()"> send</button>
+        </center>
+        <script src="gamepage.js"></script>
+    </body>
+</html>
